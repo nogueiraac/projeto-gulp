@@ -15,4 +15,10 @@ function compileSass() {
     .pipe(gulp.dest("css/"));
 }
 
-gulp.task("default", compileSass);
+gulp.task("sass", compileSass);
+
+function watch() {
+  gulp.watch("scss/*.scss", gulp.series("sass"));
+}
+
+gulp.task("default", watch);
