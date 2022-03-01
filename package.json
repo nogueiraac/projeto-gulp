@@ -1,0 +1,13 @@
+{
+  "name": "projeto-gulp",
+  "version": "1.0.0",
+  "description": "A project made for coodeboost",
+  "main": "index.js",
+  "author": "Arthur Cesar",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.9"
+  }
+}
